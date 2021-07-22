@@ -1,0 +1,16 @@
+package sec04;
+
+public class MobableDemo {
+
+	public static void main(String[] args) {
+		Movable m = new Car();
+		
+		m.move(5);
+		
+		Car c = (Car) m;
+		c.move(10);
+		c.show();
+
+	}
+
+}
